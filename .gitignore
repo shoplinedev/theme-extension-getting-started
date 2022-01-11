@@ -1,0 +1,6 @@
+.env
+.env.dev
+.env.test
+.env.prev
+.env.prod
+.DS_Store

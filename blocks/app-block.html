@@ -1,0 +1,24 @@
+<div class="theme-app-extension__app-block">
+  <h1>This is an {{ block.settings.title }}</h1>
+  {{ snippet 'logo-icon' }}
+</div>
+
+{{#schema}}
+{
+  "name": "App Block",
+  "target": "section",
+  "stylesheet": "app-block.css",
+  "javascript": "app-block.js",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": {
+        "en": "Title",
+        "zh-hans-cn": "标题"
+      },
+      "default": "App Block"
+    }
+  ]
+}
+{{/schema}}
