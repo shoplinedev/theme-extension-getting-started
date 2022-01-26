@@ -8,8 +8,8 @@
 {
   "name": "App Block",
   "target": "section",
-  "stylesheet": "app-block.css",
-  "javascript": "app-block.js",
+  "stylesheet": ["app-block.css"],
+  "javascript": ["app-block.js"],
   "templates": ["Home"],
   "settings": [
     {
@@ -21,6 +21,17 @@
       },
       "default": "App Block"
     }
-  ]
+  ],
+  "locales": {
+    "en": {
+      "page_title": "Page Title"
+    },
+    "zh-hans-cn": {
+      "page_title": "页面标题"
+    },
+    "zh-hant-tw": {
+      "page_title": "頁面標題"
+    }
+  }
 }
 {{/schema}}
