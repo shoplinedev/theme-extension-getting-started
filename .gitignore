@@ -1,7 +1,7 @@
 .env
 .env.dev
 .env.test
-.env.prev
+.env.pre
 .env.prod
 .DS_Store
 *.zip
