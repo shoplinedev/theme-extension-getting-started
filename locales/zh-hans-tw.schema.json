@@ -1,0 +1,12 @@
+{
+  "appBlock": {
+    "block": {
+      "settings":{
+        "title": {
+          "label": "標題",
+          "info":"這是一個標題"
+        }
+      }
+    }
+  }
+}

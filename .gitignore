@@ -4,4 +4,5 @@
 .env.pre
 .env.prod
 .DS_Store
+.vscode
 *.zip
