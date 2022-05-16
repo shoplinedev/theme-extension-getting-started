@@ -1,0 +1,12 @@
+{
+  "appBlock": {
+    "block": {
+      "settings":{
+        "title": {
+          "label": "Title",
+          "info":"This is a Title"
+        }
+      }
+    }
+  }
+}
