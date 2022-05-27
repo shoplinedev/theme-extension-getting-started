@@ -1,0 +1,12 @@
+.app-embed-block__container .app-embed-block__button {
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  border: 0.2em solid #ccc;
+  cursor: pointer;
+  transition: transform .3s ease;
+}
+
+.app-embed-block__container .app-embed-block__button:hover {
+  transform: scale(1.2);
+}

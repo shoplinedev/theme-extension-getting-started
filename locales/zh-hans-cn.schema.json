@@ -7,6 +7,13 @@
           "info":"这是一个标题"
         }
       }
+    },
+    "embed": {
+      "settings": {
+        "showButton": {
+          "label": "显示按钮"
+        }
+      }
     }
   }
 }

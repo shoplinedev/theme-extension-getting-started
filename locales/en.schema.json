@@ -7,6 +7,13 @@
           "info":"This is a Title"
         }
       }
+    },
+    "embed": {
+      "settings": {
+        "showButton": {
+          "label": "Show Button"
+        }
+      }
     }
   }
 }
