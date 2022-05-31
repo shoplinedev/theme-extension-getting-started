@@ -1,5 +1,5 @@
 function main() {
-  const $appBlocks = document.querySelector('[data-type]="app-block"')
+  const $appBlocks = document.querySelectorAll('[data-type="app-embed-block"]');
 
   Array.from($appBlocks).forEach(($appBlock) => {
     const blockId = $appBlock.dataset.blockId
