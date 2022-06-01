@@ -9,9 +9,13 @@
       }
     },
     "embed": {
+      "name": "主题应用拓展",
       "settings": {
         "showButton": {
           "label": "顯示按鈕"
+        },
+        "buttonText": {
+          "label": "按鈕文本"
         }
       }
     }

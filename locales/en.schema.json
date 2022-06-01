@@ -9,9 +9,13 @@
       }
     },
     "embed": {
+      "name": "App Embed Block",
       "settings": {
         "showButton": {
           "label": "Show Button"
+        },
+        "buttonText": {
+          "label": "Button Text"
         }
       }
     }
