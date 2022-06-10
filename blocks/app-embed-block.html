@@ -1,5 +1,5 @@
 <div class="app-embed-block__container" data-id="{{ block.id }}" data-type="app-embed-block">
-  <p>{{ t 'app_embed_block.title' }}</p>
+  <p>{{ t 'page_title' }}</p>
   {{#if block.settings.showButton }}
   <div class="app-embed-block__wrapper">
     <button type="button" class="app-embed-block__button">{{ block.settings.buttonText }}</button>
@@ -20,7 +20,6 @@
   "javascript": ["app-embed-block.js"],
   "stylesheet": ["app-embed-block.css"],
   "templates": [],
-  "available_if": true,
   "settings": [
     {
       "type": "switch",
@@ -36,24 +35,7 @@
     }
   ],
   "locales": {
-    "en": {
-      "page_title": "Page Title",
-      "app_embed_block": {
-        "title": "This is App Embed Block"
-      }
-    },
-    "zh-hans-cn": {
-      "page_title": "页面标题",
-      "app_embed_block": {
-        "title": "这是一个应用嵌入块"
-      }
-    },
-    "zh-hant-tw": {
-      "page_title": "頁面標題",
-      "app_embed_block": {
-        "title": "這是一個應用嵌入塊"
-      }
-    }
+    "page_title": "t:appBlock.embed.pageTitle"
   }
 }
 {{/schema}}

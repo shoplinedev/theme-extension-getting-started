@@ -1,6 +1,8 @@
 {
   "appBlock": {
     "block": {
+      "name": "應用塊",
+      "pageTitle": "應用塊頁面標題",
       "settings":{
         "title": {
           "label": "標題",
@@ -9,7 +11,8 @@
       }
     },
     "embed": {
-      "name": "主题应用拓展",
+      "name": "應用嵌入塊",
+      "pageTitle": "應用嵌入塊頁面標題",
       "settings": {
         "showButton": {
           "label": "顯示按鈕"
