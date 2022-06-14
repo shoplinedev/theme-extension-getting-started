@@ -2,7 +2,6 @@
   "appBlock": {
     "block": {
       "name": "App Block",
-      "pageTitle": "App Block Page Title",
       "settings":{
         "title": {
           "label": "Title",
@@ -12,7 +11,6 @@
     },
     "embed": {
       "name": "App Embed Block",
-      "pageTitle": "App Embed Block Page Title",
       "settings": {
         "showButton": {
           "label": "Show Button"

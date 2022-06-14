@@ -2,7 +2,6 @@
   "appBlock": {
     "block": {
       "name": "应用块",
-      "pageTitle": "应用块页面标题",
       "settings":{
         "title": {
           "label": "标题",
@@ -12,7 +11,6 @@
     },
     "embed": {
       "name": "应用嵌入块",
-      "pageTitle": "应用嵌入块页面标题",
       "settings": {
         "showButton": {
           "label": "显示按钮"
