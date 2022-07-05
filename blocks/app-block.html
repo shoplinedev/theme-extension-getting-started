@@ -1,16 +1,16 @@
 <div class="theme-app-extension__app-block" data-id="{{ block.id }}">
   <h1>This is an {{ block.settings.title }}</h1>
   {{ snippet 'logo-icon' }}
-  <h2>{{ t 'page_title' }}</h2>
+  <h2>page title (from locales config field): {{ t 'page_title' }}</h2>
 </div>
 
 {{#schema}}
 {
-  "name": "App Block",
+  "name": "t:appBlock.block.name",
   "target": "section",
   "stylesheet": ["app-block.css"],
   "javascript": ["app-block.js"],
-  "templates": ["index"],
+  "templates": [],
   "settings": [
     {
       "type": "text",
