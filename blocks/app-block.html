@@ -1,7 +1,7 @@
 <div class="theme-app-extension__app-block" data-id="{{ block.id }}">
   <h1>This is an {{ block.settings.title }}</h1>
   {{ snippet 'logo-icon' }}
-  <h2>page title (from locales config field): {{ t 'page_title' }}</h2>
+  <h2>page title (from locales config field): {{ t 'app_block.page_title' }}</h2>
 </div>
 
 {{#schema}}
@@ -19,17 +19,6 @@
       "info":"t:appBlock.block.settings.title.info",
       "default": "App Block"
     }
-  ],
-  "locales": {
-    "en": {
-      "page_title": "Page Title"
-    },
-    "zh-hans-cn": {
-      "page_title": "页面标题"
-    },
-    "zh-hant-tw": {
-      "page_title": "頁面標題"
-    }
-  }
+  ]
 }
 {{/schema}}

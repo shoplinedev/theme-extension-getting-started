@@ -1,5 +1,5 @@
 <div class="app-embed-block__container" data-id="{{ block.id }}" data-type="app-embed-block">
-  <p>{{ t 'page_title' }}</p>
+  <p>{{ t 'app_embed_block.page_title' }}</p>
   {{#if block.settings.showButton }}
   <div class="app-embed-block__wrapper">
     <button type="button" class="app-embed-block__button">{{ block.settings.buttonText }}</button>
@@ -33,17 +33,6 @@
       "label": "t:appBlock.embed.settings.buttonText.label",
       "default": "Click Button"
     }
-  ],
-  "locales": {
-    "en": {
-      "page_title": "Page Title"
-    },
-    "zh-hans-cn": {
-      "page_title": "页面标题"
-    },
-    "zh-hant-tw": {
-      "page_title": "頁面標題"
-    }
-  }
+  ]
 }
 {{/schema}}
